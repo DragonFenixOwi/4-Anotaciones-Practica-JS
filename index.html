@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos Web -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- HTML Meta Tags -->
+    <title>Plantilla</title>
+    <meta name="description" content="" />
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="" />
+    <meta itemprop="description" content="" />
+    <meta itemprop="image" content="http://" />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="http://" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="http://" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SEAT" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="http://" />
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+
+    <!-- Nuestro Framework de CSS preferido, mi preferido es BULMA -->
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css" />    
+    
+    <!-- Nuestro CSS Compilado a través de SASS ó sin compilar solo CSS básico -->
+    <link rel="stylesheet" href="css/estilos.css" />
+    
+  </head>
+  <body>
+    <header>
+      <!--
+        *
+        * Bloque HEADER
+        *
+      -->
+          <figure id="logo">
+            <!--
+             *
+             * Bloque LOGO
+             *
+            -->
+                <img src="" alt="">
+          </figure>
+      
+          <nav id="navegacionPrincipal">
+            <!--
+             *
+             * Bloque Links de Navegación Principal
+             *
+            -->
+          </nav>
+      
+    </header>
+
+    <main>
+      <!-- Bloque MAIN-->
+        <!--         
+          Zona reservada  se abre y se cierra con "script"
+            - Indicamos con "type" ¿que tipo de codigo es?
+            - En este caso javascript
+            -Se ejecuta de arriba a abajo
+          -->
+        
+        <!-- Básico Inicial document.write y console.log -->
+          <script type="text/javascript">
+              var mensaje = "Hola mundo";    
+              document.write(mensaje);
+              console.log(mensaje);
+          </script>
+
+        <!-- 
+          "prompt" 
+            - Es como los Inputs  de HTML
+            - Se mantiene una "zona cerrada" con un "Number". 
+              - Es decir, lo que va a venir por teclado y lo van a insertar, me interesa 
+              convertirlo en número.
+        -->
+          <script type="text/javascript">
+            var numero = Number(prompt('Escribe un número: '));  // primer intereacción con el usuario
+            console.log(numero);
+            document.write(`\n Número : ${numero}`);
+          </script> 
+
+          
+
+          <!-- Llamamos a la función Bucle -->
+            <script src="js/Paradigma.js" type="text/javascript"></script>
+            
+
+            <!--
+             *
+             * Bloque SECTION
+             *
+            -->
+          </section>
+      
+          <article>
+            <!--
+             *
+             * Bloque ARTICLE
+             *
+            -->
+          </article>
+      
+    </main>
+
+    <footer>
+      <!--
+        *
+        * Bloque FOOTER
+        *
+        -->
+    </footer>
+  </body>
+</html>
