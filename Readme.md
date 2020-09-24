@@ -2,7 +2,7 @@
 1. **Paradigma**
     - Programación Orientada a Objetos (**POO**)
     
-        - KEY         :   marca       (o PALABRA CL)
+        - KEY         :   marca       (o PALABRA CLAVE)
         
         - VALOR       :   Toyota.
         
